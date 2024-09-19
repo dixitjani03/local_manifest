@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- remote -->
+ <remote name="svha" fetch="https://github.com/aneeshsvha" />
+
+ <!-- trees -->
+ <project path="device/xiaomi/sakura"           name="device_xiaomi_sakura"            remote="svha"       revision="UDC" clone-depth="1" />
+ <project path="vendor/xiaomi/sakura"           name="vendor_xiaomi_sakura"            remote="svha"       revision="14" clone-depth="1" />
+ <project path="vendor/xiaomi/msm8953-common"   name="vendor_xiaomi_msm8953-common"    remote="svha"       revision="14" clone-depth="1" />
+ <project path="kernel/xiaomi/msm8953"          name="android_kernel_xiaomi_msm8953"   remote="svha"       revision="lineage-21" clone-depth="1" />
+ 
+ </manifest>
